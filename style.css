@@ -9,7 +9,6 @@
     padding: 44px;
     background-color: #ecf0f3;
     border-radius: 9px;
-    box-shadow: 0 0 12px rgba(0,0,0,0.6);
 }
 .contact-area {
     text-align: center;
@@ -57,19 +56,14 @@
     margin: 16px 0 16px 0;
 }
 .btn {
-    width: 100%;
+    width: 40%;
     display: inline-block;
-    background-color: #236c91;
+    background-color: #fe2645;
     color: #fff;
-    padding: 14px 0;
-    border-radius: 8px;
-    border: 2px solid #fff;
+    padding: 16px 0;
+    border-radius: 32px;
     transition: 0.5s;
-    box-shadow:0 0 10px rgba(0,0,0,0.6);
-}
-.btn:hover {
-    background-color: #fff;
-    color: #3f5f6f;
+    border: none;
 }
 .input-field {
     width: 100%;
@@ -79,5 +73,5 @@
     outline: none;
 }
 .comment-box {
-    height: 150px;
+    height: 180px;
 }
